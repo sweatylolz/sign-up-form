@@ -43,3 +43,13 @@ body {
     padding-bottom: 25px;
     background-color: white;
 }
+
+.form-example {
+    overflow: hidden;
+  }
+  
+.form-example label {
+    display: block;
+    width: 50%;
+    float: left;
+  }
