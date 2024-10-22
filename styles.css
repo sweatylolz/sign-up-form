@@ -2,10 +2,26 @@
     display: flex;
 }
 
+#logo-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#odin-logo {
+    height: 125px;
+    background-color: black;
+    width: 100%;
+}
 
 
-#sidebar {
-    width: 450px;
+#leftside {
+    display: flex;
+    background-image: url(images/cecilia-frost-M9D3poaqPzk-unsplashRESIZED.jpg);
+    background-size: 500px;
+    background-position: center; 
+    width: 100%;
+    height: 100vh;
 }
 
 #rightside {
