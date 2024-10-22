@@ -4,21 +4,25 @@
 
 #logo-container {
     display: flex;
-    justify-items: center;
     align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    height: 115px;
+    width: 100%;
+
 }
 
 #odin-logo {
-    height: 125px;
-    background-color: black;
-    width: 100%;
+    height: 95px;
 }
 
 
 #leftside {
     display: flex;
+    align-items: center;
     background-image: url(images/cecilia-frost-M9D3poaqPzk-unsplashRESIZED.jpg);
-    background-size: 500px;
+    background-size: 550px;
     background-position: center; 
     width: 100%;
     height: 100vh;
