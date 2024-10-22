@@ -1,8 +1,13 @@
-body {
+#website {
+    display: flex;
     background-color: lightcoral;
 }
 
 p {
     font-size: larger;
     color: white;
+}
+
+#sidebar {
+    width: 500px;
 }
