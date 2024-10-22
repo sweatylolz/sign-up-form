@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #website {
     display: flex;
 }
@@ -10,7 +14,6 @@
     background: rgba(0, 0, 0, 0.3);
     height: 115px;
     width: 100%;
-
 }
 
 #odin-logo {
@@ -18,7 +21,7 @@
 }
 
 
-#leftside {
+.leftside {
     display: flex;
     align-items: center;
     background-image: url(images/cecilia-frost-M9D3poaqPzk-unsplashRESIZED.jpg);
@@ -28,7 +31,7 @@
     height: 100vh;
 }
 
-#rightside {
+.rightside {
     display: flex;
     flex-direction: column;
     justify-content: center;
