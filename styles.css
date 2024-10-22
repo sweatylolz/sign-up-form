@@ -1,13 +1,22 @@
 #website {
     display: flex;
-    background-color: lightcoral;
 }
 
-p {
-    font-size: larger;
-    color: white;
-}
+
 
 #sidebar {
-    width: 500px;
+    width: 450px;
+}
+
+#rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+#form {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
 }
