@@ -16,6 +16,8 @@ body {
     width: 100%;
 }
 
+
+
 #odin-logo {
     height: 95px;
 }
@@ -23,6 +25,8 @@ body {
 
 .leftside {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     background-image: url(images/cecilia-frost-M9D3poaqPzk-unsplashRESIZED.jpg);
     background-size: 550px;
@@ -31,6 +35,11 @@ body {
     height: 100vh;
 }
 
+.leftside p {
+    color: lightgray;
+    text-align: center;
+    font-size: small;
+}
 .rightside {
     display: flex;
     flex-direction: column;
@@ -42,6 +51,7 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: white;
+    
 }
 
 .form-example {
@@ -53,3 +63,4 @@ body {
     width: 50%;
     float: left;
   }
+

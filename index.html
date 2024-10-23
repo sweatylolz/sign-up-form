@@ -16,6 +16,9 @@
             <img id="odin-logo" src="/images/odin-lined.png" alt="Odin head">
             <h1>ODIN</h1>
         </div>
+        <div id="footer-cred">
+            <p>Photo by Cecilia Frost on Unsplash</p>
+        </div>
         
     </div>
 
@@ -27,29 +30,34 @@
         </div>
         <div id="form">
             <form action="" method="get" class="form-example">
-                <div class="form-example">
-                  <label for="first-name">First Name: </label>
-                  <input type="text" name="first name" id="first-name" required />
+                <div id="left-form">
+                    <div class="form-example">
+                      <label for="first-name">First Name: </label>
+                      <input type="text" name="first name" id="first-name" required />
+                    </div>
+                    <div class="form-example">
+                      <label for="last-name">Last Name: </label>
+                      <input type="text" name="last name" id="last-name" required />
+                    </div>
+                    <div class="form-example">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
                 </div>
-                <div class="form-example">
-                  <label for="last-name">Last Name: </label>
-                  <input type="text" name="last name" id="last-name" required />
-                </div>
-                <div class="form-example">
-                    <label for="email">Email: </label>
-                    <input type="email" name="email" id="email" required />
-                </div>
-                <div class="form-example">
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-                </div>
-                <div>
-                    <label for="pass">Password:</label>
-                    <input type="password" id="pass" name="password" minlength="8" required />
-                </div>
-                <div>
-                    <label for="pass">Confirm Password:</label>
-                    <input type="password" id="pass" name="password" minlength="8" required />
+            
+                <div id="right-form">
+                    <div class="form-example">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div>
+                    <div>
+                        <label for="pass">Password:</label>
+                        <input type="password" id="pass" name="password" minlength="8" required />
+                    </div>
+                    <div>
+                        <label for="pass">Confirm Password:</label>
+                        <input type="password" id="pass" name="password" minlength="8" required />
+                    </div>
                 </div>
                   
                   
