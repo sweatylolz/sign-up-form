@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 33%;
     color: white;
     background: rgba(0, 0, 0, 0.3);
     height: 115px;
@@ -48,25 +48,33 @@ body {
     background-color: lightgray;
 }
 
-#form {
+form {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
     background-color: white;
     display: flex;
-    
-    
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+ input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.form-example {
-    overflow: hidden;
-  }
-  
-.form-example label {
-    display: block;
-    width: 50%;
-    float: left;
-  }
+input:focus {
+  background: rgb(0 0 0 / 10%);
+}
+
+ #left-form {
+    margin-bottom: 100px;
+ }
 
 #bottom-text {
     margin-top: 50px;
