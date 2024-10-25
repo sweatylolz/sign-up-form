@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
     color: white;
     background: rgba(0, 0, 0, 0.3);
     height: 115px;
@@ -31,7 +32,7 @@ body {
     background-image: url(images/cecilia-frost-M9D3poaqPzk-unsplashRESIZED.jpg);
     background-size: 550px;
     background-position: center; 
-    width: 100%;
+    width: 70%;
     height: 100vh;
 }
 
@@ -50,7 +51,10 @@ body {
 #form {
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 25px;
     background-color: white;
+    display: flex;
+    
     
 }
 
@@ -64,3 +68,13 @@ body {
     float: left;
   }
 
+#bottom-text {
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align:justify;
+}
+
+#top-text { 
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
