@@ -1,9 +1,15 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Norse-Bold.otf);
+  }
+
 body {
     font-family: 'Courier New', Courier, monospace;
 }
 
 #website {
     display: flex;
+    min-height: 591px;
 }
 
 #logo-container {
@@ -17,7 +23,11 @@ body {
     width: 100%;
 }
 
-
+h1 {
+    padding-top: 20px;
+    font-family: myFirstFont;
+    font-size: 60pt;
+}
 
 #odin-logo {
     height: 95px;
@@ -34,7 +44,7 @@ body {
     background-position: center; 
     width: 70%;
     height: 100vh;
-    min-height: auto;
+    min-height: 591px;
 }
 
 .leftside p {
@@ -46,7 +56,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: lightgray;
+    background-color: rgb(249, 249, 249);
+}
+
+#top-text {
+    margin-top: 50px;
+    margin-right: 150px;
 }
 
 form {
@@ -55,6 +70,7 @@ form {
     padding-left: 25px;
     background-color: white;
     display: flex;
+    box-shadow: 0 4px 10px -10px gray;
  }
 
  input,
