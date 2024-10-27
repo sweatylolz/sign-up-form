@@ -7,11 +7,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     font-weight: bold;
+    
 }
 
 #website {
     display: flex;
-    min-height: 591px;
+    min-height: 669px;
 }
 
 #logo-container {
@@ -46,7 +47,7 @@ h1 {
     background-position: center; 
     width: 70%;
     height: 100vh;
-    min-height: 591px;
+    min-height: 669px;
 }
 
 .leftside p {
@@ -72,7 +73,12 @@ form {
     padding-left: 25px;
     background-color: white;
     display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 10px -10px gray;
+ }
+
+ #form-innards {
+    display: flex;
  }
 
  input,
@@ -98,7 +104,8 @@ input:focus {
  #left-form, #right-form {
     margin-bottom: 25px;
     margin-top: 25px;
-    font-weight: 100;
+    font-weight: 50;
+    font-size: smaller;
 }
 
 #right-form {
