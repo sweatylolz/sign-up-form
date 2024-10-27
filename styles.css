@@ -4,7 +4,9 @@
   }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
 }
 
 #website {
@@ -96,6 +98,11 @@ input:focus {
  #left-form, #right-form {
     margin-bottom: 25px;
     margin-top: 25px;
+    font-weight: 100;
+}
+
+#right-form {
+    padding-left: 75px;
 }
 
 #bottom-text {
