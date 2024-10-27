@@ -34,6 +34,7 @@ body {
     background-position: center; 
     width: 70%;
     height: 100vh;
+    min-height: auto;
 }
 
 .leftside p {
@@ -54,8 +55,6 @@ form {
     padding-left: 25px;
     background-color: white;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
  }
 
  input,
@@ -68,13 +67,20 @@ button {
   box-sizing: border-box;
 }
 
+label,input{
+    display:flex;
+    flex-direction:column;
+    margin: 5px;
+  }
+
 input:focus {
   background: rgb(0 0 0 / 10%);
 }
 
- #left-form {
-    margin-bottom: 100px;
- }
+ #left-form, #right-form {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
 
 #bottom-text {
     margin-top: 50px;
