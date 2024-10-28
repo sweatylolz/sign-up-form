@@ -46,6 +46,7 @@ h1 {
     background-size: 550px;
     background-position: center; 
     width: 70%;
+    max-width: 480px;
     height: 100vh;
     min-height: 669px;
 }
@@ -127,4 +128,13 @@ input:focus {
 
 .form-example {
     padding-top: 5px;
+}
+
+.form-button {
+    background-color: rgb(120, 157, 120);
+    border-radius: 5px;
+    color: rgb(249, 249, 249);
+    padding: 5px;
+    font-size: 15px;
+    border-color: gray;
 }
