@@ -102,6 +102,8 @@ input:focus {
   background: rgb(0 0 0 / 10%);
 }
 
+
+
  #left-form, #right-form {
     margin-bottom: 25px;
     margin-top: 5px;
@@ -137,4 +139,9 @@ input:focus {
     padding: 5px;
     font-size: 15px;
     border-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(120, 157, 120);;
 }
